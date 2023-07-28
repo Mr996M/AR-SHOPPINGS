@@ -43,6 +43,8 @@ public class Utils : MonoBehaviour
         var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         var ipe = new IPEndPoint(IPAddress.Parse(ip), port);
 
+        Debug.Log(ipe);
+
         var startTime = DateTime.Now;
 
         while (true) {

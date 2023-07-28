@@ -49,7 +49,7 @@ public class User : MonoBehaviour
     [HideInInspector]
     private String serverIP = "127.0.0.1";
     [HideInInspector]
-    private int serverPort = 8081;
+    private int serverPort = 8080;
     
     /**
      * Setting exposed to user 
@@ -119,6 +119,7 @@ public class User : MonoBehaviour
             this.socket.Close();
             Utils.quit();
         }
+        Debug.Log(path);
         // if the response path is null, it means that the User has reached the distination 
         if (path == null) {
             Debug.Log("Reached!");

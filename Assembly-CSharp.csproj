@@ -60,16 +60,17 @@
   <ItemGroup>
     <Compile Include="Assets\_MyScripts\Sensor.cs" />
     <Compile Include="Assets\_MyScripts\SceneInitializer.cs" />
-    <Compile Include="Assets\ModernSupermarket\Scripts\FreeCamera.cs" />
     <Compile Include="Assets\_MyScripts\User.cs" />
     <Compile Include="Assets\_MyScripts\Utils.cs" />
+    <Compile Include="Assets\Scenes\ModernSupermarket\Scripts\FreeCamera.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ModernSupermarket\Shaders\Label.shader" />
-    <None Include="Assets\ModernSupermarket\Shaders\Liquid.shader" />
-    <None Include="Assets\ModernSupermarket\Shaders\MaskedColor.shader" />
-    <None Include="Assets\ModernSupermarket\Shaders\Tesselation.shader" />
-    <None Include="Assets\ModernSupermarket\Shaders\Glass.shader" />
+    <None Include="Assets\Scenes\ModernSupermarket\Shaders\Label.shader" />
+    <None Include="Assets\Scenes\ModernSupermarket\Shaders\Liquid.shader" />
+    <None Include="Assets\Scenes\ModernSupermarket\Shaders\MaskedColor.shader" />
+    <None Include="Assets\Scenes\ModernSupermarket\Shaders\Tesselation.shader" />
+    <None Include="Assets\_MyScripts\server\log.txt" />
+    <None Include="Assets\Scenes\ModernSupermarket\Shaders\Glass.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
